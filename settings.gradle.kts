@@ -18,7 +18,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
 rootProject.name = "ImageSliderApp"
 include(":app")
+
+
  

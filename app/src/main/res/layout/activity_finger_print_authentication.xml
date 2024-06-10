@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fingerprint_authentication_bg"
+    tools:context=".FingerPrintAuthenticationActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_authentication"
+        android:text="Use Fingerprint for\n     authentication"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_140sdp"
+
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:src="@drawable/fingerprint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Your Finger on the Scanner"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:id="@+id/tv_authentication_available_or_not"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="Use Another Way"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:id="@+id/btn_finger_print_authentication_use_another_way"
+        />
+
+</LinearLayout>
